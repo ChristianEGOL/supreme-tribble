@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/tailwind.css" />
   </head>
   <body class="bg-gray-100">
@@ -14,20 +19,35 @@
       </h1>
       <img class="object-cover object-center" src="08.svg" alt="Image" />
       <p class="text-lg text-gray-900">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa porro,
-        alias doloremque similique maiores temadadsporibus quos optio vitae sit
-        recusandae! Harum consectetur veniam voluptatem odit sapiente ipsum
-        obcaecati quas sed. A repudiandae id perspiciatis officia minus corporis
-        ullam autem, aliquid sint? Qui maiores mollitia incidunt laboriosam in
-        eveniet, perspiciatis debitis quia vel commodi veritatis, dolorum,
-        voluptatem dignissimos. Sapiente, architecto?
+        Glückwunsch: Du wurdest zum Bitbucket-Raumstationsadministrator ernannt.
+        In dieser Rolle musst du perfekt organisiert sein. Alle Dateien, die du
+        für deine Raumstationen erstellst, müssen an einem zentralen Ort
+        gespeichert und für alle deine Teamkollegen zugänglich sein, und zwar
+        ganz gleich, wo im Universum sie sich gerade befinden. In Bitbucket
+        bedeutet das, sämtliche Dateien zu einem Repository hinzuzufügen. Im
+        ersten Schritt erstellen wir also zunächst ein Repository.
       </p>
+      <hr />
+      <form action="#" class="space-y-6">
+        <input
+          class="px-2 py-2 w-full text-sm rounded-lg border text-gray-900 border-indigo-500 border-solid"
+          type="text"
+          name="username"
+          id="username"
+          placeholder="E-Mail Adresse"
+        />
+        <input
+          class="px-2 py-2 text-sm w-full rounded-lg border text-gray-900 border-indigo-500 border-solid"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Passwort"
+        />
+        <button type="submit" class="btn bg-green-500 text-white">Login</button>
+      </form>
+      <hr />
       <div>
-        <a
-          class="py-4 px-6 inline-block bg-indigo-500 text-white hover:bg-indigo-400 focus:bg-indigo-700 rounded-lg shadow-md transform ease-in-out duration-300 hover:-translate-y-2"
-          href=""
-          >Mehr erfahren</a
-        >
+        <a class="btn btn-primary" href="">Mehr erfahren</a>
       </div>
     </div>
   </body>
